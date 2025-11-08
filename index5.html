@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Velvet Revere | Perfume Brand</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+  <!--  Navbar -->
+<header class="navbar">
+  <h1 class="logo">VELVET REVERE</h1>
+
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+  <ul class="nav-links">
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#collections">Collection</a></li>
+    <li><a href="#featured">Featured</a></li>
+    <li><a href="#signature">Signature</a></li>
+    <li><a href="#order">Order</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</header>
+
+
+  <section id="home" class="hero">
+  <video class="bg-video" autoplay muted loop playsinline preload="auto"
+    poster="https://images.unsplash.com/photo-1600180758890-6e9be4d6b345?auto=format&fit=crop&w=1600&q=80">
+    <source src="perfume2-bg.mp4" type="video/mp4">
+
+
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="hero-overlay"></div>
+  <div class="hero-text">
+    <h1>Velvet Revere</h1>
+    <p>Elegance in Every Scent — Inspired by YSL</p>
+    <a href="#collections" class="btn">Explore Collection</a>
+  </div>
+
+
+<!--  Search Bar -->
+<div class="search-bar">
+  <input type="text" class="search-input" placeholder="Search perfume...">
+  <button class="clear-btn" style="display:none;">✖</button>
+  <button class="search-btn">Search</button>
+</div>
+
+<p id="no-results" style="display:none; text-align:center; margin-top:10px; color:#555;">
+  No matching perfumes found.
+</p>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+  <h2>About Velvet Revere</h2>
+  <p>
+    Velvet Revere is a luxury perfume brand inspired by timeless French elegance.  
+    Each fragrance is crafted with rare ingredients and a passion for sophistication.  
+    Our mission is to redefine scent as an expression of identity, confidence, and allure.
+  </p>
+</section>
+  
+
+  <!-- Collections -->
+  <section id="collections" class="collections">
+    <h2>Our Collections</h2>
+    <div class="card-container">
+      <div class="card men-card">
+        <h3>Men Collection</h3>
+        <p class="price">$79.00</p>
+        <button class="btn-secondary">Buy Now</button>
+      </div>
+      <div class="card women-card">
+        <h3>Women Collection</h3>
+        <p class="price">$89.00</p>
+        <button class="btn-secondary">Buy Now</button>
+      </div>
+
+      <div class="card gift-card">
+        <h3>Gift Set</h3>
+        <p class="price">$49.00</p>
+        <button class="btn-secondary">Buy Now</button>
+      </div>
+
+      <div class="card luxury-card">
+  <h3>Luxury Collection</h3>
+  <p class="price">$120.00</p>
+  <button class="btn-secondary">Buy Now</button>
+</div>
+
+<div class="card limited-card">
+  <h3>Limited Edition</h3>
+  <p class="price">$150.00</p>
+  <button class="btn-secondary">Buy Now</button>
+</div>
+
+<div class="card Best-card">
+  <h3>Best Collection</h3>
+  <p class="price">$200.00</p>
+  <button class="btn-secondary">Buy Now</button>
+</div>
+
+<div class="card Refill-card">
+  <h3>Refill</h3>
+  <p class="price">$100.00</p>
+  <button class="btn-secondary">Buy Now</button>
+</div>
+
+<div class="card EAUDE-card">
+  <h3>EAUDE</h3>
+  <p class="price">$250.00</p>
+  <button class="btn-secondary">Buy Now</button>
+</div>
+
+    </div>
+  </section>
+
+  <section id="featured" class="featured-products">
+  <h2>Feature Products</h2>
+  <div class="featured-container">
+
+    <!-- Card 1 -->
+    <div class="featured-card">
+      <img src="https://i.pinimg.com/1200x/21/39/fd/2139fdae1124ce1364aff1cdc0816d4c.jpg" alt="Velvet Oud">
+      <div class="featured-card-content">
+        <h3>Velvet Oud</h3>
+        <p>Discover the elegance of Velvet Oud — refined with rare agarwood and warm amber for a truly majestic scent.</p>
+        <ul>
+          <li>✨ Long-lasting luxury scent</li>
+          <li>🌿 Pure natural ingredients</li>
+          <li>👑 Premium packaging</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="featured-card">
+      <img src="https://i.pinimg.com/736x/5b/f9/33/5bf93393b4ba26db8d9f2e9b290d8f2a.jpg" alt="Golden Charm">
+      <div class="featured-card-content">
+        <h3>Golden Charm</h3>
+        <p>Elegant floral notes with a golden touch of sophistication. A glow of royalty and charm in every drop.</p>
+        <ul>
+          <li>💎 Elegant bottle design</li>
+          <li>🌸 Floral luxury aroma</li>
+          <li>🔥 Perfect for evening wear</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="featured-card">
+      <img src="https://i.pinimg.com/736x/b5/bb/aa/b5bbaa3e11b2ed2e0468572974a98955.jpg" alt="Mystic Noir">
+      <div class="featured-card-content">
+        <h3>Mystic Noir</h3>
+        <p>Dark, mysterious, and magnetic – Mystic Noir reveals deep notes of black orchid and smoky musk for a bold and unforgettable presence.</p>
+        <ul>
+          <li>🌑 Deep oriental essence</li>
+          <li>🔥 Ideal for night occasions</li>
+          <li>💫 Long-lasting impression</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="featured-card">
+      <img src="https://i.pinimg.com/736x/03/a8/d9/03a8d936b7dc2fd2aaa9f91b53643fa0.jpg" alt="Azure Bloom">
+      <div class="featured-card-content">
+        <h3>Azure Bloom</h3>
+        <p>Fresh oceanic aroma blended with white florals — Azure Bloom captures the essence of sea breeze and blooming jasmine.</p>
+        <ul>
+          <li>🌊 Ocean-inspired fragrance</li>
+          <li>🌼 Ideal for daily freshness</li>
+          <li>✨ Unisex, light & modern</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ---------- Signature Collection Section ---------- -->
+<section id="signature" class="signature-section">
+
+  <h2 style="text-align:center; color:var(--gold); font-family:var(--font-serif); font-size:2.5rem; margin-bottom:50px;">
+    Our Signature Collection
+  </h2>
+
+  <!-- Card 1 -->
+  <div class="signature-card">
+    <div class="card-text">
+      <h3 style="color:var(--gold); font-size:2rem;">Velvet Revere Noir</h3>
+      <p>Bold, sensual, and timeless — an iconic blend of black rose and amber that defines true elegance.</p>
+      <button class="shop-btn">Shop Now</button>
+    </div>
+    <div class="card-img">
+      <img src="https://i.pinimg.com/1200x/b6/4b/ca/b64bca6866aa2eb27a24f30ce12e90c7.jpg" alt="Velvet Revere Noir">
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="signature-card">
+    <div class="card-text">
+      <h3 style="color:var(--gold); font-size:2rem;">Amber Luxe Essence</h3>
+      <p>Rich golden amber fused with warm vanilla and spice — crafted for those who adore sophistication.</p>
+      <button class="shop-btn">Shop Now</button>
+    </div>
+    <div class="card-img">
+      <img src="https://i.pinimg.com/1200x/2d/67/a3/2d67a370593dae3e98b33d2ad4119724.jpg" alt="Amber Luxe Essence">
+    </div>
+  </div>
+</section>
+
+<section id="order" class="order-section">
+  <h2>Place Your Order</h2>
+  <form class="order-form">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <input type="text" placeholder="Perfume Name" required>
+    <input type="number" placeholder="Quantity" min="1" required>
+    <textarea placeholder="Address or Delivery Notes" rows="4"></textarea>
+    <button type="submit" class="btn">Submit Order</button>
+  </form>
+</section>
+
+<!-- ---------- Contact Section ---------- -->
+<section id="contact" class="contact-section">
+  <h2>Contact Velvet Revere</h2>
+  <p>We’d love to hear from you. Visit our Paris boutique or send us a message below.</p>
+
+
+  <div class="contact-container">
+    <!-- Left: Contact Form -->
+    <form class="contact-form" id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-contact">Send Message</button>
+    </form>
+
+    <!-- Right: Map -->
+    <div class="contact-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.8206971228414!2d2.3024999768377633!3d48.86866060000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc57e4a0f99%3A0xd740bc35b4e0b04f!2sYves%20Saint%20Laurent%20Beauty%20Boutique!5e0!3m2!1sen!2sfr!4v1698350123456!5m2!1sen!2sfr"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  © 2025 Velvet Revere — Inspired by YSL. All rights reserved.
+</footer>
+
+<script>
+const input = document.querySelector(".search-input");
+const searchBtn = document.querySelector(".search-btn");
+const clearBtn = document.querySelector(".clear-btn");
+const cards = document.querySelectorAll(".card");
+
+function filterPerfumes() {
+  const value = input.value.toLowerCase().trim();
+  let found = false;
+
+  cards.forEach(card => {
+    const name = card.querySelector("h3").textContent.toLowerCase();
+    if (name.includes(value) || value === "") {
+      card.classList.remove("hide");
+      found = true;
+    } else {
+      card.classList.add("hide");
+    }
+  });
+
+  clearBtn.style.display = value ? "inline" : "none";
+
+  const noResults = document.getElementById("no-results");
+  if (noResults) noResults.style.display = found ? "none" : "block";
+}
+
+input.addEventListener("input", filterPerfumes);
+searchBtn.addEventListener("click", filterPerfumes);
+input.addEventListener("keyup", e => {
+  if (e.key === "Enter") filterPerfumes();
+});
+
+clearBtn.addEventListener("click", () => {
+  input.value = "";
+  clearBtn.style.display = "none";
+  cards.forEach(card => card.classList.remove("hide"));
+});
+
+  // Toggle menu for mobile
+  function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+  }
+
+  // Navbar shrink on scroll
+  window.addEventListener('scroll', () => {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 50) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+// Scroll animations
+document.addEventListener("scroll", function () {
+  document.querySelectorAll(".signature-card").forEach(card => {
+    const rect = card.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 100) card.classList.add("show");
+  });
+
+  const contactSection = document.querySelector(".contact-section");
+  if (contactSection) {
+    const rect = contactSection.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 100) contactSection.classList.add("show");
+  }
+});
+
+// Select the order section
+const orderSection = document.querySelector('.order-section');
+
+// Create an intersection observer to detect scroll
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('in-view'); 
+      observer.unobserve(entry.target);      
+    }
+  });
+}, {threshold: 0.2}); 
+
+
+
+observer.observe(orderSection);
+
+// --- Order Form Fake Email Simulation ---
+const orderForm = document.querySelector('.order-form');
+
+orderForm.addEventListener('submit', function(e){
+  e.preventDefault(); 
+
+  const name = this.querySelector('input[placeholder="Full Name"]').value;
+  const email = this.querySelector('input[placeholder="Email Address"]').value;
+  const perfume = this.querySelector('input[placeholder="Perfume Name"]').value;
+  const quantity = this.querySelector('input[placeholder="Quantity"]').value;
+
+  //  Create fake email popup
+  const fakeEmail = document.createElement("div");
+  fakeEmail.classList.add("fake-email");
+  fakeEmail.innerHTML = `
+    <div class="email-box">
+      <h2>📩 Order Confirmation</h2>
+      <p>To: <b>${email}</b></p>
+      <p>Subject: Your Velvet Revere Order Confirmation</p>
+      <p>Dear ${name},</p>
+      <p>Thank you for ordering <b>${quantity}</b> bottle(s) of <b>${perfume}</b>.</p>
+      <p>Your order is being processed. We’ll notify you once it’s shipped!</p>
+      <button class="close-email">Close</button>
+    </div>
+  `;
+  document.body.appendChild(fakeEmail);
+
+  // Close button event
+  document.querySelector(".close-email").addEventListener("click", () => {
+    fakeEmail.remove();
+  });
+
+  // Clear form
+  this.reset();
+});
+
+// === About Section Slide Animation ===
+const aboutSection = document.querySelector('.about-section');
+
+window.addEventListener('scroll', () => {
+  if (!aboutSection) return;
+  const sectionTop = aboutSection.getBoundingClientRect().top;
+  const triggerPoint = window.innerHeight * 0.8;
+
+  if (sectionTop < triggerPoint) {
+    aboutSection.classList.add('show');
+  }
+});
+
+</script>
+
+</body>
+</html>
